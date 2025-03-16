@@ -1,44 +1,85 @@
-
 body {
     line-height: 30px;
     font-size: 16px;
+    background-color: #ecffef;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+	font-weight: bold;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.player-section, .computer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+#HPlayer, #HComp {
+    font-size: 30px;
+    margin: 10px 0;
+    color: #333;
+    text-align: center;
 }
 
 .numbers {
-	font-size: 30px;
-}
-
-#comp {
-    background-color: red;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-align: center;
 }
 
 #player {
     background-color: green;
 }
 
+#comp {
+    background-color: red;
+}
+
+#menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
 button {
-	background: rgb(123, 202, 169);
-	border: 0;
-	padding: 20px;
-	border-radius: 15px;
-	font-size: 30px;
-	position: relative;
-	top: 200px;
-	
+    background: rgb(198, 243, 192);
+    border: 1;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-size: 30px;
+   
+    color: black;
+	font-weight: bold;
 }
 
-.header {
-	position: relative;
-	top: 50px;
-}
-
-#HComp {
-	position: relative;
-	left: 100px;
+button:hover {
+    background: rgb(147, 231, 154);
+	border: 1;
 }
 
 #win {
-	font-size: 50px;
-	position: absolute;
-	padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
 }
