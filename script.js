@@ -34,9 +34,6 @@ function create(elemN ,idN, classN, text) {
     created.innerHTML = text;
     document.body.append(created);
 };
-  
-
-
 
 class Menu{
     constructor(elem) {
@@ -57,6 +54,5 @@ class Menu{
         }
     }
 }   
-
 new Menu(menu)
 
