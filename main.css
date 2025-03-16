@@ -1,0 +1,48 @@
+.alert {
+    background-color: crimson;
+    font-size: 100px;
+}
+  
+body {
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.numbers {
+	font-size: 30px;
+}
+
+#comp {
+    background-color: red;
+}
+
+#player {
+    background-color: green;
+}
+
+button {
+	background: rgb(123, 202, 169);
+	border: 0;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	position: relative;
+	top: 200px;
+	
+}
+
+.header {
+	position: relative;
+	top: 50px;
+}
+
+#HComp {
+	position: relative;
+	left: 100px;
+}
+
+#win {
+	font-size: 50px;
+	position: absolute;
+	padding: 30px;
+}
